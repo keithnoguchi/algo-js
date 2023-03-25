@@ -1,7 +1,7 @@
 {
 	"name": "graph",
 	"version": "1.0.0",
-	"main": "main.js",
+	"main": "src/main.js",
 	"license": "MIT",
 	"scripts": {
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
