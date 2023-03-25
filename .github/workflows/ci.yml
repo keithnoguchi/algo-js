@@ -25,12 +25,12 @@ jobs:
       - name: Run lint
         run: yarn workspaces run lint
 
-  check:
+  format:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
         uses: actions/checkout@v3
       - name: Install JS/TS modules
         run: yarn -A
-      - name: Run lint
-        run: yarn workspaces run check
+      - name: Run format
+        run: yarn workspaces run format
