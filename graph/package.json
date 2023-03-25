@@ -1,6 +1,6 @@
 {
   "name": "graph",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "license": "MIT"
 }
