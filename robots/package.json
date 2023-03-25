@@ -4,6 +4,7 @@
 	"main": "src/main.js",
 	"license": "MIT",
 	"scripts": {
+		"dev": "node src/main.js",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
