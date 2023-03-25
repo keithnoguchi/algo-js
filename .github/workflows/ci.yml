@@ -34,3 +34,13 @@ jobs:
         run: yarn -A
       - name: Run format
         run: yarn workspaces run format
+
+  dev:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+      - name: Install JS/TS modules
+        run: yarn -A
+      - name: Run dev
+        run: yarn workspaces run dev
