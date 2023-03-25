@@ -30,11 +30,11 @@ const roads = [
 	"Ernie's House-Grete's House",
 	"Grete's House-Farm",
 	"Grete's House-Shop",
-	"Marketplace-Farm",
-	"Marketplace-Post Office",
-	"Marketplace-Shop",
-	"Marketplace-Town Hall",
-	"Shop-Town Hall"
+	'Marketplace-Farm',
+	'Marketplace-Post Office',
+	'Marketplace-Shop',
+	'Marketplace-Town Hall',
+	'Shop-Town Hall'
 ];
 
 function buildGraph(edges) {
@@ -47,7 +47,7 @@ function buildGraph(edges) {
 			graph[from].push(to);
 		}
 	}
-	for (let [from, to] of edges.map(e => e.split("-"))) {
+	for (let [from, to] of edges.map((e) => e.split('-'))) {
 		addEdge(from, to);
 		addEdge(to, from);
 	}

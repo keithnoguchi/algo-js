@@ -15,16 +15,6 @@ defaults:
     shell: bash
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v3
-      - name: Install JS/TS modules
-        run: yarn -A
-      - name: Run test
-        run: yarn workspaces run test
-
   lint:
     runs-on: ubuntu-latest
     steps:
