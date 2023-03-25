@@ -1,0 +1,7 @@
+{
+  "name": "algo-js",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [],
+  "license": "MIT"
+}
